@@ -1,10 +1,4 @@
 
-/*
-		COLORES
-	Azul: rgb(51, 103, 176)
-	Amarillo: rgb(255, 203, 5)
-*/
-
 * {
 	margin: 0;
 	padding: 0;
@@ -227,7 +221,7 @@
 }
 
 #stadistics {
-	height: 50px;
+	height: 75px;
 	margin: 5px 0;
 	overflow-y: scroll;
 	border-radius: 20px;
@@ -404,6 +398,10 @@
 		padding: 5px 25px;
 		font-size: 80%;
 	}
+	#stadistics {
+		height: 40px;
+	}
+}
 }
 
 /* -------------------------- */
