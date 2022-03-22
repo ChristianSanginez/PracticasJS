@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+		<title> Pokedex </title>
+	</head>
+	<body class="body">
+		<header class="header position">
+			<!--
+			
+			<img class="img" src="assets/images/logo.png" alt="POKEMON">
+		-->
+			<img class="img" src="assets/images/logo.png" alt="POKEMON">
+			<img class="img" src="assets/images/pokedex.png" alt="POKEDEX">
+		</header>
+		<main class="container">
+			<section class="main">
+				<div id="layout" class="horizontal">
+					<div class="panel">
+						<div class="pokemon">
+							<img id="pokeImg" class="image center" src="assets/images/pokeball.png" alt="Pokeball">
+						</div>
+						<div class="screen">
+							<div class="information">
+								<h1 id="pokeName" class="title"> WHO'S THAT POKEMON? </h1>
+							</div>
+						</div>
+						<div class="logo">
+							<img class="image" src="assets/images/pokedex.png" alt="Pokedex">
+						</div>
+					</div>
+					<div class="separator"></div>
+					<div class="panel">
+						<div class="screen">
+							<div class="information">
+								<h2 class="title"> Searches </p>
+								<div class="menu">
+									<ul class="horizontal">
+										<li class="space">
+											<a id="byName">
+												<span> <p class="title"> NAME </p> </span>
+												<span> <i class="fa fa-users links" aria-hidden="true"></i> </span>
+											</a>
+										</li>
+										<li class="space">
+											<a id="byType">
+												<span> <p class="title"> TYPE </p> </span>
+												<span> <i class="fa fa-bug links" aria-hidden="true"></i> </span>
+											</a>
+										</li>
+										<li class="space">
+											<a id="byId">
+												<span> <p class="title"> ID </p> </span>
+												<span> <i class="fa fa-id-badge links" aria-hidden="true"></i> </span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="screen">
+							<div class="information">
+								<h2 id="title" class="title"> POKEDEX: NAME </h2>
+							</div>
+						</div>
+						<div class="screen">
+							<div class="information">
+								<h2 class="title"> INFORMATION </h2>
+								<div id="type" class="text"> <p> Type: </p> </div>
+								<div id="stats" class="text"> <p> Stadistics: </p>  </div>
+								<div id="moves" class="text"> <p> Movements: </p>  </div>
+
+							</div>
+						</div>
+						<div class="screen">
+							<div class="information">
+								<h2 class="title"> Search Pokemon </p>
+								<div class="horizontal">
+									<input id="searchName" class="input" type="text" placeholder="Enter Name">
+									<input id="searchButton" class="buttons" type="submit" value="Search">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header use">
+					<h2 class="title red"> Welcome to Pokedex </h2>
+					<p class="subtitle"> <b> How to use the pokedex? </b> </p>
+					<p class="text"> Select one kind of search, the search types are by name, by type or by id </p>
+					<ul class="list">
+						<li class="text">
+							<b class="red"> 1) </b> To use the search by name, you need to enter the name of a Pokémon. If that name exists, the Pokémon will appear.
+						</li>
+						<li class="text">
+							<b class="red"> 2) </b> To use the search by type, you need to enter a number. If that number exists, a Pokémon of that type will appear randomly.
+						</li>
+						<li class="text">
+							<b class="red"> 3) </b> To use the search by id, you need to enter a number. if that number exists, the Pokémon with that id will appear.
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="header position title">
+				<p> Created by <b class="red"> Christian de Jesús Pacheco Sanginez </b> </p>
+			</div>
+		</footer>
+		<script src="https://use.fontawesome.com/db665e051a.js"></script>
+		<script src="js/pokedex.js"></script>
+	</body>
+</html>
