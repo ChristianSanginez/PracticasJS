@@ -8,7 +8,7 @@ byName.addEventListener('click', () => {
 	restartLayout();
 	const title = document.querySelector('#title');
 	const input = document.querySelector('.input');
-	title.innerHTML = 'POKEDEX: NAME';
+	title.innerHTML = 'POKEDEX: <label class="title red"> NAME </label>';
 	input.id = 'searchName';
 	input.placeholder = 'Enter Name';
 });
@@ -17,7 +17,7 @@ type.addEventListener('click', () => {
 	restartLayout();
 	const title = document.querySelector('#title');
 	const input = document.querySelector('.input');
-	title.innerHTML = 'POKEDEX: TYPE';
+	title.innerHTML = 'POKEDEX: <label class="title red"> TYPE </label>';
 	input.id = 'searchType'
 	input.placeholder = 'Enter Type';
 });
@@ -26,7 +26,7 @@ id.addEventListener('click', () => {
 	restartLayout();
 	const title = document.querySelector('#title');
 	const input = document.querySelector('.input');
-	title.innerHTML = 'POKEDEX: ID';
+	title.innerHTML = 'POKEDEX: <label class="title red"> ID </label>';
 	input.id = 'searchId';
 	input.placeholder = 'Enter Id';
 });

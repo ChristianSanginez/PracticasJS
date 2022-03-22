@@ -227,7 +227,8 @@
 }
 
 #stadistics {
-	height: 75px;
+	height: 50px;
+	margin: 5px 0;
 	overflow-y: scroll;
 	border-radius: 20px;
 	border: 2px solid rgba(0, 0, 0, 0.5);
@@ -235,6 +236,7 @@
 
 #movements {
 	height: 75px;
+	margin: 5px 0;
 	overflow-y: scroll;
 	border-radius: 20px;
 	border: 2px solid rgba(0, 0, 0, 0.5);
